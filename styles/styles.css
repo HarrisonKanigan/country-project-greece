@@ -89,3 +89,33 @@ footer {
     padding: 10px 20px;
     position: relative;
 }
+
+@media (max-width: 563px) {
+    .nav-links {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 1rem;
+        padding: 8px 10px;
+    }
+
+    .video-overlay h1 {
+        font-size: 4rem;
+    }
+
+    .video-overlay {
+        top: 45%;
+    }
+}
+
+@media (min-width: 564px) {
+    .nav-links {
+        gap: 20px;
+    }
+
+    .video-overlay h1 {
+        font-size: 6rem;
+    }
+}
