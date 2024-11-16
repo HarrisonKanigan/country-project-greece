@@ -237,3 +237,21 @@ footer {
 .credit-item a:hover {
     color: #f7c948;
 }
+
+@media (max-width: 563px) {
+    .credits {
+        margin: 10px;
+    }
+
+    .credit-item {
+        padding: 15px;
+    }
+
+    .credit-item h2 {
+        font-size: 1.5rem;
+    }
+
+    .credit-item p {
+        font-size: 0.9rem;
+    }
+}
