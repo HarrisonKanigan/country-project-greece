@@ -205,3 +205,35 @@ footer {
         top: 45%;
     }
 }
+
+.credits {
+    margin: 20px;
+}
+
+.credit-item {
+    background-color: #00008b;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.credit-item h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.credit-item p {
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.credit-item a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+.credit-item a:hover {
+    color: #f7c948;
+}
