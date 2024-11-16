@@ -179,3 +179,29 @@ footer {
     border-radius: 8px;
     margin-top: 15px;
 }
+
+@media (max-width: 563px) {
+    .image-banner {
+        height: 563px;
+    }
+
+    .image-overlay h1 {
+        font-size: 4rem;
+    }
+
+    .food-item, .attraction-item {
+        padding: 15px;
+    }
+
+    .food-item h2, .attraction-item h2 {
+        font-size: 1.5rem;
+    }
+
+    .food-item p, .attraction-item p {
+        font-size: 0.9rem;
+    }
+
+    .image-overlay {
+        top: 45%;
+    }
+}
