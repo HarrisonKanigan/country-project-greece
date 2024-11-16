@@ -45,3 +45,39 @@ header {
 .nav-links a.active {
     color: #f7c948;
 }
+
+.video-background {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.video-overlay h1 {
+    font-size: 6rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
