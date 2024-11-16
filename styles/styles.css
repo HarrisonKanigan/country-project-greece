@@ -81,3 +81,11 @@ header {
     font-size: 6rem;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
+
+footer {
+    background: #00008b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+}
