@@ -151,3 +151,31 @@ footer {
     font-size: 6rem;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
+
+.food-items, .attractions {
+    margin: 20px;
+}
+
+.food-item, .attraction-item {
+    background-color: #00008b;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.food-item h2, .attraction-item h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.food-item p, .attraction-item p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.food-img, .attraction-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
